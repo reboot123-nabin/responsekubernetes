@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="308.372" height="307" viewBox="0 0 308.372 307">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.82;
+      }
+
+      .cls-2 {
+        fill: rgba(255,255,255,0.15);
+        stroke: rgba(255,255,255,0.34);
+        stroke-width: 3px;
+        opacity: 0.8;
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-4 {
+        opacity: 0.05;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+
+      .cls-7 {
+        filter: url(#Rectangle_102);
+      }
+    </style>
+    <filter id="Rectangle_102" x="6.372" y="5" width="302" height="302" filterUnits="userSpaceOnUse">
+      <feOffset dx="9" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.471"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.48" cy="0.56" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.51"/>
+      <stop offset="1" stop-color="#b0b0b0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_18" data-name="Group 18" class="cls-1" transform="translate(-687.5 -635.463)">
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, 687.5, 635.46)">
+      <g id="Rectangle_102-2" data-name="Rectangle 102" class="cls-2" transform="translate(6.37 5)">
+        <rect class="cls-5" width="284" height="283" rx="52"/>
+        <rect class="cls-6" x="1.5" y="1.5" width="281" height="280" rx="50.5"/>
+      </g>
+    </g>
+    <rect id="Rectangle_103" data-name="Rectangle 103" class="cls-3" width="284" height="10" transform="translate(694.872 635.463)"/>
+    <rect id="Rectangle_107" data-name="Rectangle 107" class="cls-3" width="284" height="10" transform="translate(694.872 635.463)"/>
+    <rect id="Rectangle_104" data-name="Rectangle 104" class="cls-3" width="118.518" height="10.934" transform="translate(687.5 864.693) rotate(-90)"/>
+    <rect id="Rectangle_106" data-name="Rectangle 106" class="cls-3" width="118.518" height="10.934" transform="translate(687.5 864.693) rotate(-90)"/>
+    <path id="Path_70" data-name="Path 70" class="cls-4" d="M4817.344-877,4712.915-594s164.3-.347,168.333,0,47.825-7.742,48.482-49.7-1.253-191.763-1.253-191.763S4920.783-876.4,4884.132-877,4817.344-877,4817.344-877Z" transform="translate(-3953.098 1517.921)"/>
+  </g>
+</svg>

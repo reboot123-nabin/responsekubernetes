@@ -1,0 +1,417 @@
+body{
+    background-image: url("bg1.jpg");
+    color:#fffafa;
+    margin:0;
+    padding: 0;
+   /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2;
+   
+    width:70%;
+    border-top: 1px solid white;
+  }
+
+
+  /*navbar*/
+/* #navmenu{
+
+ margin-left:150px;  
+
+} */
+
+.navbar-nav ul li a{
+   margin-left:10px;
+}
+.navbar-nav li a{
+    text-decoration:none;
+ font-size:20px;   
+color:#9e8383
+
+}
+
+.btncolor{
+    font-weight: bold;
+    border-radius:8px;
+   
+}
+.start{
+    border-radius: 25px;
+    background: rgba( 183, 206, 245, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+color:blue;
+font-weight: bold;
+opacity:1;
+}
+
+
+  /*end nabar/
+
+
+  /*description*/
+
+  .p1{
+    font-size:30px;
+}
+.p2{
+    font-size: 30px;
+}
+#description{
+    margin-top:10%;
+    height:500px;
+    overflow: hidden;
+}
+
+
+  /*description/
+
+
+
+
+/* services */
+
+
+.services-title{
+    text-align: center;
+    font-size:40px;
+    font-weight: 700;
+}
+.services-detail{
+    padding-top:40px;
+}
+
+
+
+#services .card{
+    opacity:0.5;
+   
+
+    border-radius: 10px;
+  
+color:White;
+background:transparent;
+}
+
+#services{
+    overflow:hidden;
+   
+}
+
+
+.services-icon{
+    font-size: 30px;
+    margin:20px auto;
+    padding:20px;
+    height:80px;
+    width:80px;
+
+    border-radius: 50%;
+}
+/*end services*/
+
+
+
+.features-title{
+    text-align: center;
+
+}
+/* features */
+
+#features{
+    overflow: hidden;
+    height:600px;
+}
+#features .card{
+    opacity:0.5;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+color:White;
+
+background:transparent;
+
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+
+}
+
+
+
+
+
+
+
+#features .card:hover{
+    opacity:1;
+    transition-delay: 2ms;
+   
+    border:1px solid white;
+    -webkit-transition-duration: 0.5ms; /* Safari */
+    transition-duration: 700ms;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+  
+/* #features .card:after {
+    content: "";
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+#features .card:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  } */
+
+
+/*end services*/
+
+
+/*images*/
+.communication{
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image {
+    position: relative;
+    height: 290px;
+    width: 290px;
+    background-repeat:no-repeat;
+
+  }
+  .image:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover!important;
+    
+    background: url("Group 18.svg");
+
+
+    
+  }
+
+#logo{
+    background-color:gray;
+
+}
+
+.logodesign{
+    height:50%;
+}
+.kuber{
+    margin-right:10%;
+}
+
+
+.meeting{
+    height:300px;
+  
+}
+
+.kubernetes{
+    height:200px;
+}
+
+
+
+
+
+
+
+/*end images*/
+
+.page-footer{
+    margin-top:2%;
+  
+}
+
+.footerlogo{
+    height: 75%;
+
+   
+}
+.cardbox{
+    width:80%; 
+    padding-left: 15px;
+}
+.alllogo{
+    width:100%;
+   
+}
+.image.pad-md-30 {
+    padding: 100px!important;
+}
+
+/*media query*/
+
+/*mobile phones*/
+
+@media (max-width:768px){
+    .kubernetes{
+        height:25%;
+  
+    }
+    #navmenu{
+        height:400px;
+       
+    }
+ 
+   
+     #description{
+         margin-top:10%;
+         overflow:hidden;
+         height:470px;
+     }
+    
+ 
+     #features{
+         height:900px;
+    
+     }
+  
+     .footerlogo{
+         height:60px;
+         margin-bottom:10px;
+       
+     }
+     .p1{
+         font-size:20px;
+     }
+     .p2{
+         font-size: 20px;
+     }
+     .meeting{
+         height:270px;
+        margin-left:5%;
+        margin-top:5%;
+     
+     }
+     .arrange{
+         margin-top: 10%;
+        margin-left:10%;
+        }
+     
+     .cardbox{
+         width:90%;
+     }
+   
+    .arrange{
+        margin-bottom: 150%;
+    }
+  
+
+    .secure{
+        padding-left:25px;
+    }
+    .meeting{
+        height:180px;
+        margin-top: 5%;
+        margin-left:40px;
+    
+    }    
+    #features{
+        height:850px;
+   
+    }
+    .alllogo{
+        height:10%;
+    }
+    
+ }
+ 
+/*desktop and laptop*/
+
+@media (min-width:1024px){
+
+}
+
+/* tablets and ipads*/
+
+@media (min-width:768px) and (max-width:1023px){
+   /* .p1{
+       font-size:25px;
+   }
+   .p2{
+       font-size: 25px;
+   }
+   #navmenu{
+    height:400px;
+   
+} */
+/* .features-title{
+   margin-left: 10px;
+
+}
+
+.cardbox{
+    width:350px; 
+    padding-left: 15px;
+} */
+    .image:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    
+        background-size: cover!important;
+        background: url("Group 18.svg");
+        background-repeat: no-repeat;
+    }
+    .image{
+        position: relative;
+        width: 100%;
+        
+        height: 100%; 
+        /* background-size: contain; */
+        background-repeat: no-repeat;
+    }
+    .meeting{
+        height:300px;
+        margin-left: 120px;
+    }
+    #features{
+        height:950px;
+   
+    }
+    .arrange{
+        margin-left: 150px;
+    }
+    .footerlogo{
+        height:100px;
+    }
+
+   
+  
+}
+
+
+
+
+ 

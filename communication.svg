@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160.32" height="163.504" viewBox="0 0 160.32 163.504">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(243,243,243,0);
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="_1934114_communication_consultant_integration_interaction_interface_icon" data-name="1934114_communication_consultant_integration_interaction_interface_icon" transform="translate(-15.5 -13.7)">
+    <path id="Path_80" data-name="Path 80" class="cls-1" d="M237.368,35.218c0,10.234-7.732,24.561-17.284,24.561S202.8,45.452,202.8,35.218,210.532,16.7,220.084,16.7,237.368,24.985,237.368,35.218Z" transform="translate(-124.424)"/>
+    <path id="Path_81" data-name="Path 81" class="cls-1" d="M211.861,173.8c-2.891-2.729-20.045-7.8-20.045-7.8l-11.631,13h0l-11.631-13s-17.154,5.068-20.045,7.8c-4.451,4.224-4.808,20.11-4.808,20.11h73C216.669,193.908,216.344,178.021,211.861,173.8Z" transform="translate(-84.524 -100.795)"/>
+    <path id="Path_82" data-name="Path 82" class="cls-2" d="M85.8,268.5H97.658a48.391,48.391,0,0,0,43.859,27.973c18.746,0,35.023-12.346,43.047-27.973h11.663" transform="translate(-45.435 -169.994)"/>
+    <line id="Line_6" data-name="Line 6" class="cls-2" y1="9.779" transform="translate(96.05 126.479)"/>
+    <circle id="Ellipse_27" data-name="Ellipse 27" class="cls-1" cx="10.916" cy="10.916" r="10.916" transform="translate(18.5 87.59)"/>
+    <circle id="Ellipse_28" data-name="Ellipse 28" class="cls-1" cx="18.356" cy="18.356" r="18.356" transform="translate(77.694 137.492)"/>
+    <circle id="Ellipse_29" data-name="Ellipse 29" class="cls-1" cx="10.916" cy="10.916" r="10.916" transform="translate(150.988 87.59)"/>
+  </g>
+</svg>
